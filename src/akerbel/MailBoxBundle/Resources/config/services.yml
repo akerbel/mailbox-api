@@ -1,0 +1,4 @@
+services:
+#    akerbel_mail_box.example:
+#        class: akerbel\MailBoxBundle\Example
+#        arguments: ["@service_id", "plain_value", "%parameter%"]

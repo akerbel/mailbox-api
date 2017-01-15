@@ -1,0 +1,48 @@
+akerbel_mail_box_homepage:
+    path:     /
+    defaults: { _controller: akerbelMailBoxBundle:Default:index }
+
+akerbel_mail_box_add:
+    path: /add
+    defaults: { _controller: "akerbelMailBoxBundle:Default:add" }
+    methods:  [PUT|POST]
+
+akerbel_mail_box_list:
+    path: /list
+    defaults: { _controller: "akerbelMailBoxBundle:Default:list" }
+    methods:  [GET]
+
+akerbel_mail_box_list_archived:
+    path: /list/archived
+    defaults: { _controller: "akerbelMailBoxBundle:Default:listArchived" }
+    methods:  [GET]
+
+akerbel_mail_box_show:
+    path: /show/{id}
+    defaults: { _controller: "akerbelMailBoxBundle:Default:show" }
+    methods:  [GET]
+
+akerbel_mail_box_archive:
+    path: /archive/{id}
+    defaults: { _controller: "akerbelMailBoxBundle:Default:archive" }
+    methods:  [PATCH]
+
+akerbel_mail_box_unarchive:
+    path: /unarchive/{id}
+    defaults: { _controller: "akerbelMailBoxBundle:Default:unarchive" }
+    methods:  [PATCH]
+
+akerbel_mail_box_read:
+    path: /read/{id}
+    defaults: { _controller: "akerbelMailBoxBundle:Default:read" }
+    methods:  [PATCH]
+
+akerbel_mail_box_unread:
+    path: /unread/{id}
+    defaults: { _controller: "akerbelMailBoxBundle:Default:unread" }
+    methods:  [PATCH]
+
+akerbel_mail_box_delete:
+    path: /delete/{id}
+    defaults: { _controller: "akerbelMailBoxBundle:Default:delete" }
+    methods:  [DELETE]

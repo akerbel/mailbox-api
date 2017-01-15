@@ -1,0 +1,7 @@
+akerbel_mail_box:
+    resource: "@akerbelMailBoxBundle/Resources/config/routing.yml"
+    prefix:   /mailbox/
+
+#app:
+#    resource: "@AppBundle/Controller/"
+#    type:     annotation
